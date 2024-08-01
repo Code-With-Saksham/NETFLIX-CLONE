@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/images/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1600px, 100vw);
+    height: 675px;
+    /* max-width: 100vw; */
+    position: relative;
+}
+
+
+.main .box {
+    height: 675px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+}
+
+
+nav {
+    display: flex;
+    margin: auto;
+    max-width: 75vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+nav img {
+    color: rgb(223, 14, 14);
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 1;
+}
+
+.main-txt {
+    height: calc(100% - 90px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.main-txt> :nth-child(1) {
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.main-txt> :nth-child(2) {
+    font-weight: 600;
+    font-size: 24px;
+
+}
+
+.main-txt> :nth-child(3) {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 70px;
+
+}
+
+
+
+.seperation {
+    background-color: rgba(74, 74, 74, 0.775);
+    height: 8px;
+}
+
+.nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgba(23, 23, 23, 0.99);
+    color: rgb(255, 255, 255);
+    border-style: none;
+}
+
+.eng-btn {
+    border: 1px solid grey;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 530;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 4px;
+    padding: 4px 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+
+}
+
+.eng-btn img {
+    width: 16px;
+
+}
+
+.red-sn:hover {
+    background-color: rgb(169, 11, 11);
+}
+
+.red-sn {
+    transition: all 250ms ease-out;
+    /* background-color: rgb(99, 1, 112); */
+    background-color: rgb(223, 14, 14);
+    padding: 6px 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.main-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+
+.main input {
+    padding: 18px 170px 18px 17px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    /* color: white; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: none;
+    border: 1px solid grey;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+}
+
+.red-gs {
+    /* background-color: rgb(131, 3, 182); */
+    background-color: rgb(223, 14, 14);
+    color: white;
+    padding: 14px 25px;
+    border-radius: 4px;
+    font-size: 23px;
+    font-weight: 645;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    cursor: pointer;
+    transition: all 200ms ease-out;
+    /* letter-spacing: 1px; */
+}
+
+.red-gs:hover {
+    background-color: rgb(169, 11, 11);
+}
+
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    /* margin-top: 80px; */
+    color: white;
+    /* flex-wrap: wrap; */
+}
+
+
+
+.img-1 {
+    position: relative;
+}
+
+.img-1 img {
+    width: 385px;
+    position: relative;
+    z-index: 1;
+}
+
+.img-1 video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 334px;
+    height: auto;
+}
+
+.vid-2 video {
+    position: absolute;
+    top: 38px;
+    right: 75px;
+    width: 240px;
+    height: auto;
+}
+
+.first {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.first>div {
+    display: flex;
+    flex-direction: column;
+    /* gap: 18px; */
+}
+
+.first>div :first-child {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.faq h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+    
+}
+
+.faqbox:hover {
+    background-color: rgba(126, 126, 126, 0.718);
+}
+
+.faqbox {
+    transition: all ease-out;
+    display: flex;
+    background-color: rgba(79, 79, 79, 0.718);
+    padding: 24px;
+    max-width: 70vw;
+    justify-content: space-between;
+    margin: 9px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.third-sec span {
+    color: white;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.second-input input {
+    padding: 18px 170px 18px 17px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    /* color: white; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: none;
+    border: 1px solid grey;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+}
+
+.third-sec {
+    margin-bottom: 80px;
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 75vw;
+    margin: auto;
+    padding: 34px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+.footer a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+footer .ques {
+    padding: 34px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:670px) {
+    .main-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 9px;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .first {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .main-txt> :nth-child(1) {
+        font-weight: 700;
+        font-size: 32px;
+    }
+    
+    .main-txt> :nth-child(2) {
+        font-weight: 500;
+        font-size: 18px;
+    
+    }
+    
+    .main-txt> :nth-child(3) {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 60px;
+    
+    }
+    .nav-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+    nav{
+        max-width: 97vw;
+    }
+
+
+    .faq h2{
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .third-sec span{
+        text-align: center;
+    }
+
+    .eng-btn {
+        font-size: 16px;
+        font-weight: 510;
+        padding: 3px 12px;
+        gap: 6px;
+    }
+
+    .red-sn{
+        padding: 5px 14px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .main input {
+        padding: 16px 125px 16px 15px;
+    }
+    .second-input input {
+        padding: 16px 125px 16px 15px;
+    }
+    .red-gs {
+        padding: 12px 20px;
+        border-radius: 4px;
+        font-size: 21px;
+        font-weight: 600;
+        gap: 12px;
+        transition: all 200ms ease-out;
+    }
+    .second-input .red-gs {
+        padding: 12px 20px;
+        border-radius: 4px;
+        font-size: 21px;
+        font-weight: 600;
+        gap: 12px;
+        transition: all 200ms ease-out;
+    }
+}
